@@ -22,7 +22,7 @@ export default function Home() {
       </nav>
       <main className="pt-20">
         <section id="hero" className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-4xl sm:text-6xl font-extrabold mb-4 text-white">Hi, I&apos;m <span className="text-accent">Samba Siva Reddy Koki</span></h1>
+          <h1 className="text-4xl sm:text-6xl font-extrabold mb-4 text-white">Hi, I am <span className="text-accent">Samba Siva Reddy Koki</span></h1>
           <h2 className="text-xl sm:text-2xl font-medium mb-6 text-accent">Full Stack Developer</h2>
           <p className="max-w-xl text-lg text-gray-300 mb-8">
             I build accessible, scalable web applications with React, Next.js, and more. Passionate about clean code, performance, and user experience.
