@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
@@ -82,7 +83,7 @@ export default function Home() {
         <section id="projects" className="py-20 max-w-4xl mx-auto px-4">
           <h3 className="text-2xl font-bold mb-8 text-accent">Projects</h3>
           <div className="bg-[#112240] rounded-lg shadow p-6 flex flex-col md:flex-row gap-6 items-center">
-            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Task Management App Screenshot" className="rounded shadow max-h-48 object-cover w-full md:w-1/3" />
+            <Image src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Task Management App Screenshot" width={400} height={192} className="rounded shadow max-h-48 object-cover w-full md:w-1/3" />
             <div className="flex-1">
               <h4 className="text-xl font-bold mb-2 text-white">CollaborativeTaskFlow</h4>
               <span className="text-sm text-accent mb-2 block">React.js, Ruby on Rails, PostgreSQL, JWT, RESTful APIs</span>
